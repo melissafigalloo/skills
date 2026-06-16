@@ -150,7 +150,7 @@ This skill is a [**CodeAct**](https://arxiv.org/abs/2402.01030) implementation. 
 - **Self-debugging through execution feedback.** When a query fails (wrong field caption, expired token), the agent observes the typed exception, reads the error message, and corrects its next attempt — no human intervention needed.
 - **Persistent state through variables.** Catalog metadata, schemas, and query results persist as objects across turns. The agent references them by name rather than re-fetching or parsing tool responses from its context window.
 
-![CodeAct](https://raw.githubusercontent.com/Action-Co/skills/a0815cb921f5d741096dcd527df87eb339433920/assets/diagrams/Code%20Act.svg)
+![CodeAct](https://raw.githubusercontent.com/Action-Co/skills/78635a69d82b733f22d61492089c5b810443c655/assets/diagrams/Code%20Act.svg)
 
 > **Figure 1**: Code actions outperform JSON/text tool-calling by up to 20% across 17 LLMs by unifying actions into a single space with native control flow, data flow, and multi-tool composition.
 >
@@ -158,7 +158,7 @@ This skill is a [**CodeAct**](https://arxiv.org/abs/2402.01030) implementation. 
 
 These performance gains compound in multi-turn and long-running tasks. Because the agent holds state as variables in a persistent session, it can build on prior results across turns without re-fetching data or bloating its context window. When a query fails or returns unexpected results, the agent reads the execution feedback, adjusts its code, and retries — all within the same session. This closed feedback loop is what makes long-running exploration (traversing a large catalog, tracing lineage, iterating on a query) reliable in ways that one-shot JSON tool calls cannot match. It also sets up the recursive pattern used in the next section: when the catalog itself is too large to fit in context, the agent uses the same persistent session to decompose the problem into smaller, sequential steps.
 
-![Multi-turn Code Execution](https://raw.githubusercontent.com/Action-Co/skills/a0815cb921f5d741096dcd527df87eb339433920/assets/diagrams/Multi-Turn.svg)
+![Multi-turn Code Execution](https://raw.githubusercontent.com/Action-Co/skills/78635a69d82b733f22d61492089c5b810443c655/assets/diagrams/Multi-Turn.svg)
 
 > **Figure 3**: Multi-turn interaction with execution feedback. The agent imports libraries, executes, observes errors, and self-debugs — closing the gap between intent and working code without demonstrations.
 >
