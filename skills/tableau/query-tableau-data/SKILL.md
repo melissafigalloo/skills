@@ -4,7 +4,7 @@ description: A skill to query Tableau data sources, the "last mile" of analytics
 license: Apache 2.0
 metadata:
   authors: "stephen@action.co"
-  versions: "0.0.1"
+  versions: "0.1.0"
   tags: ["tableau", "datasource", "query", "vizql data service", "analytics", "VDS", "data", "BI", "business intelligence"]
 ---
 
