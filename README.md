@@ -48,7 +48,7 @@ For a deeper look at why composable, code-first agent tooling outperforms monoli
 
 | Skill | Description |
 |-------|-------------|
-| **[Query Tableau Data](./skills/tableau/query-tableau-data)** | Explore the Tableau data catalog, trace lineage, and query published data sources via the VizQL Data Service. Implements a REPL-first Code Execution pattern with a Python SDK for authentication, inventory, lineage tracing, schema introspection, and data retrieval. |
+| **[Query Tableau Data](./plugins/tableau-analytics/skills/query-tableau-data/)** | Explore the Tableau data catalog, trace lineage, and query published data sources via the VizQL Data Service. Implements a REPL-first Code Execution pattern with a Python SDK for authentication, inventory, lineage tracing, schema introspection, and data retrieval. |
 
 ![Bar and Whiskers Chart](https://github.com/Action-Co/skills/blob/main/assets/cover/Tableau%20Cover%20-%20(1440x168)%20-%20Transparent%20Background.png?raw=true)
 

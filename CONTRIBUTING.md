@@ -98,7 +98,7 @@ Before submitting your PR, verify:
 - [ ] Commit messages are clear and descriptive
 - [ ] You have not committed credentials, `.env` files, or `temp/` output
 
-![Bar and Whiskers Chart](./assets/cover/Tableau%20Cover%20-%20(1440x168)%20-%20Transparent%20Background.png)
+![Bar and Whiskers Chart](./assets/cover/Tableau%20Cover%20-%20%281440x168%29%20-%20Transparent%20Background.png)
 
 ---
 
@@ -241,4 +241,4 @@ By contributing to this repository, you agree that your contributions will be li
 
 ---
 
-![Action Co. Cover](./assets/cover/Action%20-%20LinkedIn%20-%20Company%20Cover%20-%20(1129x192).png)
+![Action Co. Cover](./assets/cover/Action%20-%20LinkedIn%20-%20Company%20Cover%20-%20%281129x192%29.png)
