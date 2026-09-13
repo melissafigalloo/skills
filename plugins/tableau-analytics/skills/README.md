@@ -44,7 +44,7 @@ From the installer, select the specific skills you want to add to your agent.
 
 | Skill Set | Description |
 |-----------|-------------|
-| **[Tableau](./tableau/)** | Explore the Tableau data catalog, trace lineage, and query published data sources via headless BI. |
+| **[Tableau](./query-tableau-data/)** | Explore the Tableau data catalog, trace lineage, and query published data sources via headless BI. |
 
 ![Bar and Whiskers Chart](https://github.com/Action-Co/skills/blob/main/assets/cover/Tableau%20Cover%20-%20(1440x168)%20-%20Transparent%20Background.png?raw=true)
 
