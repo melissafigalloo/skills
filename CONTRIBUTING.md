@@ -189,26 +189,20 @@ uv run pytest
 
 ## Skill Structure Conventions
 
-Each skill is a self-contained package. When adding or modifying a skill, follow this layout:
+Each skill is a self-contained package. When adding or modifying a skill follow this layout:
 
-```
-skills/<platform>/<skill-name>/
-├── README.md            # Landing page for humans (design, HITL setup)
-├── SKILL.md             # Agent entry point (workflow instructions)
-├── pyproject.toml        # Runtime dependencies (no dev deps)
-├── .env.template         # Template for environment variables
-│
-├── docs/                 # Deep-dive documentation
-│   ├── README.md         # Documentation index
-│   ├── REPL.md           # Complete REPL session example
-│   └── sdk/              # SDK usage patterns & reference
-│
-├── scripts/              # Reusable scripts & workflows
-├── temp/                 # Local exploration output (gitignored)
-│
-└── src/                  # Source code
-   └── <package_name>/   # Importable Python package
-       └── main.py       # Demo orchestrator / entry point
+```text
+plugins/<plugin>/
+├── .claude-plugin/
+│   └── plugin.json        # only plugin.json lives inside .claude-plugin/
+└── skills/
+    └── <skill-name>/
+        ├── SKILL.md       # agent entry point
+        ├── README.md
+        ├── docs/
+        ├── scripts/
+        ├── temp/          # gitignored
+        └── src/
 ```
 
 - **`README.md`** — Human-facing: skill overview, design rationale, setup instructions (especially HITL steps), and links to deeper docs
